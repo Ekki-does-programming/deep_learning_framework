@@ -1,6 +1,7 @@
-# Numpy deep learning framework
+# NumPy deep learning framework
 
-A simple deep learning framework written from scratch using `numpy`.
+A deep learning framework built from scratch in `NumPy`, featuring custom implementations of core layers (Conv, Pool, FC, etc.), activation functions, and optimizers (SGD, Adam, etc.); validated by training LeNet and LSTM architecture end-to-end.
+The LeNet written from scratch achieves accuracies over 97% on MNIST.
 
 ## 📂 Structure of repository
 
@@ -30,7 +31,7 @@ mkdir trained
 python TrainLeNet.py
 ```
 
-Already training the model on $300 \times 50$ images, leads to an accuracy of $\approx 93 \%$. With longer training accuracies over $97\%$ can be achieved.
+Already training the model on $300 \times 50$ images, leads to an accuracy of $\approx 93$%. With longer training accuracies over $97$% can be achieved.
 The trained model is stored in the `trained` folder. Training can just be continued by executing the python script again.
 
 ### ⭐ Sentiment classification
